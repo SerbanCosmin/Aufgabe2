@@ -31,9 +31,9 @@ public class CharaktereController implements IController<Charaktere, Integer> {
 
         List<Produkte> produkte = selectedCharaktere.getProdukte();
         if(sort == 1) {
-            produkte.sort(Comparator.comparingInt(Produkte::getPreis));
+            produkte.sort(Comparator.comparingDouble(Produkte::getPreis));
         } else {
-            produkte.sort((p1, p2) -> Integer.compare(p2.getPreis(), p1.getPreis()));
+            produkte.sort((p1, p2) -> Double.compare(p2.getPreis(), p1.getPreis()));
         }
         return produkte;
     }

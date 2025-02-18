@@ -25,7 +25,7 @@ public class Produkte {
         this.name = name;
     }
 
-    public int getPreis() {
+    public double getPreis() {
         return preis;
     }
 
