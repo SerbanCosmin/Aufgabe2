@@ -2,7 +2,7 @@ package Model;
 
 public class Produkte {
     private String name;
-    private int preis;
+    private double preis;
     private String universum;
 
     public Produkte(String name, double preis, String herkunftsregion) {
