@@ -6,6 +6,7 @@ import java.util.Objects;
 
 public class ProdukteRepository implements IRepository<Produkte, String> {
     private final List<Produkte> produkte;
+
     public ProdukteRepository(List<Produkte> produkte) {
         this.produkte = produkte;
     }

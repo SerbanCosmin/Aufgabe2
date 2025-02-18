@@ -31,11 +31,11 @@ public class UI {
     public void menu() {
         while (true) {
             System.out.println();
-            System.out.println("1. ");
-            System.out.println("2. Task 2");
-            System.out.println("3. Task 3");
-            System.out.println("4. Task 4");
-            System.out.println("5. Task 5");
+            System.out.println("1. ProdukteMenu");
+            System.out.println("2. CharaktereMenu");
+            System.out.println("3. UrsprungsuniversumFiltrierung");
+            System.out.println("4. Gekauft aus spezifischer Universum");
+            System.out.println("5. Produkte nach Preis");
             System.out.println("6. Exit");
             System.out.println("Choose: ");
             System.out.println();
@@ -110,7 +110,7 @@ public class UI {
                     System.out.println("Name: ");
                     name = scanner.nextLine();
 
-                    System.out.println("Region: ");
+                    System.out.println("Universum: ");
                     herkunftsregion = scanner.nextLine();
 
                     System.out.println("Preis: ");
@@ -146,7 +146,7 @@ public class UI {
                         System.out.println("New name: ");
                         String newName = scanner.nextLine();
 
-                        System.out.println("New Region: ");
+                        System.out.println("New Universum: ");
                         String newHerkunftsregion = scanner.nextLine();
 
                         System.out.println("New preis: ");

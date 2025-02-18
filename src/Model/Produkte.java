@@ -5,7 +5,7 @@ public class Produkte {
     private int preis;
     private String universum;
 
-    public Produkte(String name, int preis, String herkunftsregion) {
+    public Produkte(String name, double preis, String herkunftsregion) {
         this.name = name;
         this.preis = preis;
         this.universum = herkunftsregion;
